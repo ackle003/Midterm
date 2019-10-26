@@ -19,4 +19,4 @@ Okay so for the midterm this is what I got done:
    -> There is Out Of Bounds Death
    -> There is code that checks if the player has gotten the key, I checked with debuggin and moving the key to see if the door will open
    -> To open the door you have to be on top of it, and press the up key 
-   
+   -> If you die it'll take around 5 seconds for the game to load the menu screen, ofc we can change this to replay the scene and we can also change the load time, I just thought 5 seconds was a good amount of time to wallow in sorrow for the fact that you couldn't jump from one column to the other in a basic af game
