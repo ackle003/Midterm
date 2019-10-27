@@ -19,13 +19,13 @@ public class PlatformMotion : MonoBehaviour {
         posA = childTransform.localPosition;
         posB = transformB.localPosition;
         nexPos = posB;
+        gameObject.SetActive(false);
     }
 	
 	// Update is called once per frame
 	void Update () {
 
         Move();
-        
         
     }
 
@@ -42,5 +42,10 @@ public class PlatformMotion : MonoBehaviour {
     private void ChangeDestination()
     {
         nexPos = nexPos != posA ? posA : posB;
+    }
+
+    public void allowMovement()
+    {
+        gameObject.SetActive(true);
     }
 }

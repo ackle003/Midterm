@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 32
+  controlID: 28
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -89,8 +89,8 @@ MonoBehaviour:
     y: 0
     width: 381
     height: 577
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 33
+  controlID: 29
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 34
+  controlID: 30
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -422,33 +422,33 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\saren\OneDrive\Documents\College\Game Programming\GoToHellMidterm
+  m_LastProjectPath: C:\Users\saren\OneDrive\Documents\College\GoToHell\Midterm\GoToHellMidterm
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 852}
-    m_SelectedIDs: 68330000
-    m_LastClickedID: 13160
-    m_ExpandedIDs: e6280000442e0000662e0000623300006e3300008c330000303700003837000002450000504500006c45000092450000024600003c4600002cc0000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 868}
+    m_SelectedIDs: 742e0000
+    m_LastClickedID: 11892
+    m_ExpandedIDs: 0000000076290000242c0000482c0000202d0000482d0000fc2e0000442f0000e62f00002431000006320000b4320000da3300000a3600002e3700002639000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: GoToHell Sprites
-      m_OriginalName: GoToHell Sprites
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 14136
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -462,7 +462,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 0000000076290000242c0000482c0000202d0000482d0000fc2e0000442f0000e62f00002431000006320000b4320000da3300000a3600002e37000026390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -582,7 +582,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 52d9caff7ce7caffb8f3cafff00fcbffb41bcbff7423cbff8624cbffc230cbffb63dcbffca57cbff8277cbffa878cbff047acbff6c7bcbff947dcbffaa7ecbffa280cbff8481cbff648ccbfffef4d0ff10a5d1ff02a6d1ff704ed2ff1e42d4ff5ce3d4ff08f3d4ff6cc9d6ff4412d7ffae1dd7ff3226d7ff301bebff341bebff3c20ebff4a16f1ff2c19f1ffd628f1ff0235f1fffc39f1ff663cf1ff2e49f1ff7e8cf2ff1c25f8ffb895f9ffbe95f9ff8eb5fafffc27fbff4a5bfbffc87afbff02d0fbffac05fcff7c41feff2a99ffffde9cffffc6f9ffff000000001c8b0000228b00002a8b00007c940000829400008c940000fecd000064ce0000f6e4000094fd0000120501002c0501008e060100b2060100960d0100ec0d0100
+    m_ExpandedIDs: b2f3ffff9cfbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -676,7 +676,7 @@ MonoBehaviour:
     speed: 2
     m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0.08717229, y: -0.89959055, z: 0.21045254, w: 0.3726226}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Key : MonoBehaviour {
 
     public bool hasKey = false;
+    public UnityEngine.Events.UnityEvent PlatformsToMove;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -12,6 +13,7 @@ public class Key : MonoBehaviour {
         hasKey = true;
         Debug.Log(hasKey);
         gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        PlatformsToMove.Invoke();
 
     }
 
