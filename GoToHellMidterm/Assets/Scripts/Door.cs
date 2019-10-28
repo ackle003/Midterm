@@ -15,7 +15,7 @@ public class Door : MonoBehaviour {
 
         if(Input.GetKeyDown(KeyCode.UpArrow) && openDoor == true)
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
        
     }
