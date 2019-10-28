@@ -9,11 +9,12 @@ Okay so for the midterm this is what I got done:
        - Game Scene
        - Death Scene
        - Win Scene
+   -> Event Handling
+       - When the player gets the key, it triggers the platform to spawn and move
+       - We can esentially use this event for multiple platforms or other things we want to happen when the player gets the key
       
 --- Things That We Still Need ---
-   -> Event Handling
-        - So I understand how it works and how to code it but I have no idea how to implement it for our game, maybe we can all discuss this on Monday
-        
+   -> The Document 
         
 --- Things to Know ---
    -> There is Out Of Bounds Death
